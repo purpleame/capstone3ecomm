@@ -1,0 +1,25 @@
+<svg viewBox="0 0 480 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define styles -->
+  <style>
+    .easy-text {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 110px;
+      font-weight: 700;
+      fill: #00875a;
+      letter-spacing: -8px;
+    }
+    .shop-text {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 48px;
+      font-weight: 300;
+      fill: #1a1a1a;
+      letter-spacing: 24px;
+    }
+  </style>
+  
+  <!-- "grocery" text -->
+  <text x="10" y="110" class="easy-text">grocery</text>
+  
+  <!-- "app" text -->
+  <text x="28" y="160" class="shop-text">store</text>
+</svg>
