@@ -22,7 +22,7 @@ public class ProductsController
         this.productService = productService;
     }
 
-    @GetMapping("")
+    @GetMapping
     @PreAuthorize("permitAll()")
     public List<Product> search(@RequestParam(name="cat", required = false) Integer categoryId,
                                 @RequestParam(name="minPrice", required = false) Double minPrice,
